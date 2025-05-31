@@ -1,6 +1,14 @@
-<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite 1.0//EN"[
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite 1.0//EN" [
 
-    <!ENTITY florin CDATA "f" -- Dutch guilder sign -->
+    <!ENTITY apos    CDATA "&#x2019;"  --      66 -->
+    <!ENTITY deg     CDATA "&#x00B0;"  --       4 -->
+    <!ENTITY florin  CDATA "&#x0192;"  --       1 -->
+    <!ENTITY ldquo   CDATA "&#x201C;"  --    1031 -->
+    <!ENTITY lsquo   CDATA "&#x2018;"  --       4 -->
+    <!ENTITY mdash   CDATA "&#x2014;"  --     124 -->
+    <!ENTITY ndash   CDATA "&#x2013;"  --       2 -->
+    <!ENTITY rdquo   CDATA "&#x201D;"  --    1021 -->
+    <!ENTITY rsquo   CDATA "&#x2019;"  --       4 -->
 
 ]>
 <TEI.2 lang=nl-1900>
@@ -26,6 +34,8 @@
 
 <p lang=en>&availability.en;
 
+<p>Vertaling van <hi lang=fr>Robur-le-conquérant</hi> (1886).
+
 </availability>
 </publicationStmt>
 <sourceDesc>
@@ -43,13 +53,13 @@
 
 </encodingDesc>
 <profileDesc>
-<langUsage lang=nl>
-    <language id=nl-1900>Nederlands (Spelling De Vries-Te Winkel)</language>
-    <language id=nl>Nederlands</language>
-    <language id=en>Engels</language>
-    <language id=fr>Frans</language>
-    <language id=la>Latijn</language>
-</langUsage>
+    <langUsage lang=nl>
+        <language id=nl-1900>Nederlands (Spelling De Vries-Te Winkel)</language>
+        <language id=nl>Nederlands</language>
+        <language id=en>Engels</language>
+        <language id=fr>Frans</language>
+        <language id=la>Latijn</language>
+    </langUsage>
 </profileDesc>
 <revisionDesc>
 <list>
@@ -58,7 +68,7 @@
 </list>
 </revisionDesc>
 </teiHeader>
-<text>
+<text rend="stylesheet(style/classic.css)">
 <front id=frontmatter>
 <div1 id=cover type=Cover>
 
@@ -408,7 +418,7 @@
 
 <p>Aan dien redetwist zou geen mensch geloofd hebben, die, meer kalm van aard, die tegenwerpingen, die scherpe woordspelingen, dat geschreeuw vernomen had, welke al te zamen de geheele zaal&mdash;en die was ruim&mdash;sedert een kwartieruurs vervulden.
 
-<p>Ja, die zaal van Weldon-Institute was groot. Wellicht de grootste van de geheele stad, zooals Weldon-Institute zelf de grootste en meest beroemde club was van Philadelphia, de hoofdplaats van den Staat Pensylvanië, die op zijne beurt een onderdeel uitmaakt van de Vereenigde Staten van Noord-Amerika.
+<p>Ja, die zaal van Weldon-Institute was groot. Wellicht de grootste van de geheele stad, zooals Weldon-Institute zelf de grootste en meest beroemde club was van Philadelphia, de hoofdplaats van den Staat <corr sic="Pensylvanië">Pennsylvanië</corr>, die op zijne beurt een onderdeel uitmaakt van de Vereenigde Staten van Noord-Amerika.
 
 <p>Nu hadden er daags te voren in die stad, bij gelegenheid van <pb n=16 id=pb16>de aanstelling van een gaslantaarn-ontsteker, publieke betoogingen en luidruchtige meetings plaats gehad, waarbij over en weer klappen en slagen gewisseld waren geworden.
 
@@ -2052,7 +2062,7 @@
 
 <p>Deze keek boos; maar zweeg tegen zijne gewoonte in. Waarschijnlijk rekende hij, dat een gekibbel tusschen voorzitter en secretaris thans minder passend zoude zijn.
 
-<p>De opmerking van Uncle Prudent, hoewel barsch geuit, was toch volkomen juist. De <hi>Albatros</hi> verwijderde zich in rechte lijn van de hoofdstad van Pensylvanië.
+<p>De opmerking van Uncle Prudent, hoewel barsch geuit, was toch volkomen juist. De <hi>Albatros</hi> verwijderde zich in rechte lijn van de hoofdstad van <corr sic="Pensylvanië">Pennsylvanië</corr>.
 
 <p>Wanneer het evenwel Uncle Prudent&apos;s voornemen was geweest, van den ingenieur Robur te vergen, dat hij zijne gevangenen naar Philadelphia, dus in oostelijke richting, terug zou voeren, dan zou hem daartoe de gelegenheid ontnomen zijn, althans voor het oogenblik. Want de gezagvoerder van de <hi>Albatros</hi> scheen dien morgen volstrekt niet gehaast te zijn, om zijn kajuit te verlaten; hetzij dat hij zich met eenige werkzaamheden bezighield, hetzij dat hij nog sliep. De beide leden van Weldon-Institute waren derhalve genoodzaakt te gaan ontbijten, zonder hem gezien te hebben.
 
@@ -2410,7 +2420,7 @@
 
 <p>In een uur tijd had men de tweehonderd kilometers van de zeeëngte van Corea overschreden, waarna het oversteken van de uiterste punt van het schiereiland eene kleinigheid was. Terwijl de typhon boven de zuid-oostelijke kusten van China woedde, stevende de <hi>Albatros</hi> boven de Gele Zee en gedurende den 22<hi rend=sup>sten</hi> en 23<hi rend=sup>sten</hi> boven de Golf van Petchely. Den 24<hi rend=sup>sten</hi> stevende het luchtschip de vallei van de Pei-Ho op en zweefde eindelijk boven de hoofdplaats van het Hemelsche Rijk.
 
-<p>Over de verschansing van het luchtschip gebogen, konden de beide gevangenen, zooals de ingenieur hun aangekondigd had, zeer duidelijk die onmetelijke stad bespeuren. Zij ontwaarden den muur, die haar in twee deelen splitst&mdash;de Mandchourysche en de Chineesche stad. Zij telden de twaalf voorsteden, die haar omgeven; zij zagen de breede boulevards, die als stralen zich naar een middenpunt richtten; zij bewonderden de tempels, welker gele en groene daken als met zonlicht gedrenkt waren; zij peilden de parken, die de woningen der mandarynen omgaven. Vervolgens verschenen te midden der Mandchourysche stad de zes honderd acht en zestig hectaren oppervlakte van de Gele stad, met hare pagoden, hare keizerlijke tuinen, hare kunstmatige meren, haren berg van houtskool, die de geheele hoofdplaats beheerscht. En eindelijk ontwaarden de luchtreizigers in het centrum van de Gele stad als een vierkant van Chineesche notenkrakers, besloten in een ander, de Roode stad, d. w. z. het Keizerlijk paleis met al de grilligheid van zijne onmogelijke of beter van zijne onwaarschijnlijke bouworde.
+<p>Over de verschansing van het luchtschip gebogen, konden de beide gevangenen, zooals de ingenieur hun aangekondigd had, zeer duidelijk die onmetelijke stad bespeuren. Zij ontwaarden den muur, die haar in twee deelen splitst&mdash;de Mandchourysche en de Chineesche stad. Zij telden de twaalf voorsteden, die haar omgeven; zij zagen de breede boulevards, die als stralen zich naar een middenpunt richtten; zij bewonderden de tempels, welker gele en groene daken als met zonlicht gedrenkt waren; zij peilden de parken, die de woningen der mandarynen omgaven. Vervolgens verschenen te midden der Mandchourysche stad de zes honderd acht en zestig hectaren oppervlakte van de Gele stad, met hare pagoden, hare keizerlijke tuinen, hare kunstmatige meren, haren berg van houtskool, die de geheele hoofdplaats beheerscht. En eindelijk ontwaarden de luchtreizigers in het centrum van de Gele stad als een vierkant van Chineesche notenkrakers, besloten in een ander, de Roode stad, d.w.z. het Keizerlijk paleis met al de grilligheid van zijne onmogelijke of beter van zijne onwaarschijnlijke bouworde.
 
 <p>Onder de <hi>Albatros</hi> weerklonk in dit oogenblik een zonderling geluid. Men zou gemeend hebben, een concert van Eolische harpen te hooren. In de lucht zweefden honderden vliegers van verschillenden vorm, vervaardigd van palmbladeren, van pandanus-bladeren, die aan hun bovenste gedeelte voorzien waren van een soort boog van licht hout, die onderspannen was door een dunnen reep bamboe. Onder den adem des winds weerklonken al die reepen in een verschillenden toon als die van een harmonica, en lieten een welluidend gemurmel vernemen van een inderdaad weemoedig effect. Het was alsof men in dit midden muzikale zuurstof inademde.
 
@@ -3067,7 +3077,7 @@
 
     Doet daarvan mededeeling aan de vrienden en bekenden!
 
-    <p rend="align(right)">(w.g.) <hi rend=sc>Uncle Prudent</hi> en <hi rend=sc>Phil Evans</hi>.&rdquo;</q>
+    <p rend="align(right)">(<abbr expan="was geteekend">w.g.</abbr>) <hi rend=sc>Uncle Prudent</hi> en <hi rend=sc>Phil Evans</hi>.&rdquo;</q>
 
 
 <p>Thans was het onverklaarbaar luchtverschijnsel eindelijk aan de bewoners der Beide Halfronden verklaard. Daardoor werd de rust en de kalmte aan de geleerden der talrijke Sterrenwachten, die over de geheele aarde verspreid zijn, weergegeven.
@@ -4695,7 +4705,7 @@
 
 <p>Neen, zeker niet. Althans geen woord was hen ontvallen, dat zoo iets kon doen gissen. Zelfs was er afspraak gemaakt, dat zij den volgenden dag weer in de club zouden verschijnen, de een om zijn zetel als voorzitter, de ander om dien van secretaris in te nemen, in het vooruitzicht, dat in de vergadering het voorgevallene van den vorigen avond zou behandeld en heftig bediscussiëerd worden.
 
-<p>Maar, niet alleen waren die twee zoo belangrijke personen van den Staat Pensylvanië spoorloos verdwenen, men was ook zonder <pb n=213 id=pb213>berichten omtrent den knecht Frycollin. Evenmin als zijn meester kon men hem op het spoor komen. Neen, nimmer had een neger, sedert de geschiedkundige personen van Toussaint-Louverture, Soulouque en Dessaline, zooveel van zich doen spreken. Hij zou eene belangrijke plaats innemen, niet alleen onder de vermaardsten zijner collega&apos;s van den dienstbaren stand, maar ook onder de zonderlingen van iederen maatschappelijken stand of huidkleur, die zich door de een of andere excentriciteit in het zoo fraaie land van Amerika weten op den voorgrond te dringen.
+<p>Maar, niet alleen waren die twee zoo belangrijke personen van den Staat <corr sic="Pensylvanië">Pennsylvanië</corr> spoorloos verdwenen, men was ook zonder <pb n=213 id=pb213>berichten omtrent den knecht Frycollin. Evenmin als zijn meester kon men hem op het spoor komen. Neen, nimmer had een neger, sedert de geschiedkundige personen van Toussaint-Louverture, Soulouque en Dessaline, zooveel van zich doen spreken. Hij zou eene belangrijke plaats innemen, niet alleen onder de vermaardsten zijner collega&apos;s van den dienstbaren stand, maar ook onder de zonderlingen van iederen maatschappelijken stand of huidkleur, die zich door de een of andere excentriciteit in het zoo fraaie land van Amerika weten op den voorgrond te dringen.
 
 <p>Den volgenden dag alweer geen tijdingen!
 
@@ -4781,7 +4791,7 @@
 
 <p>Welke aandoening! Welke vernietigende schrik! Het Parijzer telegram was aan het adres van Weldon-Institute gericht. Het werd onmiddellijk aan alle clubleden medegedeeld. Tien minuten later was de tijding door middel van het telephoonnet over geheel Philadelphia verspreid. In minder dan een uur was geheel Amerika op de hoogte van het nieuws, dat zich langs de ontelbare electrische draden over het nieuwe continent voortgeplant had.
 
-<p>Men wilde er niet aan gelooven, en toch was niets meer zeker dan dat! Het was eene mystificatie van een minder geestige grappenmaker, beweerde de een; een ergerlijk boerenbedrog van het meest verdachte allooi, zeide de ander. Hoe zou zulk eene schaking te Philadelphia hebben kunnen volbracht worden en dat nog wel <pb n=217 id=pb217>zoo geheimzinnig? Hoe zou die <hi>Albatros</hi> in Fairmont Park hebben kunnen landen, zonder dat hare verschijning in den Staat Pensylvanië geseind was?
+<p>Men wilde er niet aan gelooven, en toch was niets meer zeker dan dat! Het was eene mystificatie van een minder geestige grappenmaker, beweerde de een; een ergerlijk boerenbedrog van het meest verdachte allooi, zeide de ander. Hoe zou zulk eene schaking te Philadelphia hebben kunnen volbracht worden en dat nog wel <pb n=217 id=pb217>zoo geheimzinnig? Hoe zou die <hi>Albatros</hi> in Fairmont Park hebben kunnen landen, zonder dat hare verschijning in den Staat <corr sic="Pensylvanië">Pennsylvanië</corr> geseind was?
 
 
 <p><figure id=p217>
@@ -4997,7 +5007,7 @@
 
 <p>Nimmer had een gunstiger dag kunnen gekozen worden,&mdash;niet om eene afdoende proefneming te leveren, maar wel om op een welslagen van de ondernomen luchtreis te kunnen pochen.
 
-<p>Behoeven wij te spreken over de onmetelijk dicht opeengepakte menigte die Fairmont-Park, hoe uitgestrekt ook, vulde? Talrijke treinen hadden een leger van nieuwsgierigen uit alle naburige Staten in de hoofdplaats van Pensylvanië bijeengebracht. Iedere handels- of nijverheids-beweging was als het ware verlamd en stond stil. Iedereen, patroons, geëmploieerden, bedienden, werklieden, dienstmeisjes, mannen, vrouwen, grijsaards, kinderen, Congresleden, vertegenwoordigers van het leger, magistraten, reporters, redacteurs, drukkersgezellen, blanke en witte inboorlingen wilden die opstijging bijwonen en waren in dit uitgestrekte park met zijne groote opene grasvlakte opeengepakt.
+<p>Behoeven wij te spreken over de onmetelijk dicht opeengepakte menigte die Fairmont-Park, hoe uitgestrekt ook, vulde? Talrijke treinen hadden een leger van nieuwsgierigen uit alle naburige Staten in de hoofdplaats van <corr sic="Pensylvanië">Pennsylvanië</corr> bijeengebracht. Iedere handels- of nijverheids-beweging was als het ware verlamd en stond stil. Iedereen, patroons, geëmploieerden, bedienden, werklieden, dienstmeisjes, mannen, vrouwen, grijsaards, kinderen, Congresleden, vertegenwoordigers van het leger, magistraten, reporters, redacteurs, drukkersgezellen, blanke en witte inboorlingen wilden die opstijging bijwonen en waren in dit uitgestrekte park met zijne groote opene grasvlakte opeengepakt.
 
 <p>Zullen wij de luidruchtige gemoedsbewegingen van die menigte moeten beschrijven? Er hadden daar onverklaarbare stroomingen plaats, plotseling opdringen en terugdringen, wat die massa zenuwachtig trillend maakte en haar aan eene holstaande zee gelijk deed zijn.
 
@@ -5290,44 +5300,27 @@
 <head>Inhoud.</head>
 
 
-<!-- Bladz. -->
-
-<p><ref target=ch1>I</ref>. Waarin de geleerden en ook de domkoppen met de handen in het haar zitten 1
-
-<p><ref target=ch2>II</ref>. Waarin de leden van Weldon-Institute met elkander kibbelen, zonder er in te slagen tot overeenstemming te geraken. 14
-
-<p><ref target=ch3>III</ref>. Waarin een nieuwe figuur ten tooneele verschijnt, die den lezer niet behoeft voorgesteld te worden, om de eenvoudige reden dat hij zich zelven voorstelt 29
-
-<p><ref target=ch4>IV</ref>. Waarin de schrijver, handelende over den knecht Frycollin, poogt de maan in hare eer te herstellen 40
-
-<p><ref target=ch5>V</ref>. Waarin een schorsing van vijandelijkheden tusschen den voorzitter en den secretaris van Weldon-Institute ingewilligd wordt. 50
-
-<p><ref target=ch6>VI</ref>. Dat de ingenieurs, de werktuigkundigen en andere geleerden gevoegelijk zouden kunnen overslaan 62
-
-<p><ref target=ch7>VII</ref>. Waarin Uncle Prudent en Phil Evans nogmaals weigeren zich te laten overtuigen 75
-
-<p><ref target=ch8>VIII</ref>. Waarin bespeurd zal worden, dat Robur eindelijk besluit, antwoord te verleenen op de gewichtige vraag, die hem gesteld is. 87
-
-<p><ref target=ch9>IX</ref>. Waarin de Albatros ongeveer tienduizend kilometer aflegt en den tocht met een wonderbaarlijken sprong eindigt 101
-
-<p><ref target=ch10>X</ref>. Waarin men zien zal, hoe en waarom de knecht Frycollin op sleeptouw genomen wordt 115
-
-<p><ref target=ch11>XI</ref>. Waarin de toorn van Uncle Prudent, voorzitter van Weldon-Institute, aangroeit als de vierkanten van snelheid van de Albatros 132
-
-<p><ref target=ch12>XII</ref>. Waarin de ingenieur Robur te werk gaat, alsof hij wil mededingen naar den Monthyon-prijs 141
-
-<p><ref target=ch13>XIII</ref>. Waarin Uncle Prudent en Phil Evans een geheelen oceaan oversteken, zonder zeeziek te worden 157
-
-<p><ref target=ch14>XIV</ref>. Waarin de Albatros verricht, wat wellicht wel nimmer uitvoerbaar zal zijn 171
-
-<p><ref target=ch15>XV</ref>. Waarin zaken gebeuren, die inderdaad waard zijn verhaald te worden 188
-
-<p><ref target=ch16>XVI</ref>. Waarin de lezer in eene onzekerheid gelaten wordt, die hij waarschijnlijk betreuren zal 202
-
-<p><ref target=ch17>XVII</ref>. Waarin de geschiedenis van het gebeurde een sprong van twee maanden achteruit en daarna een sprong van negen maanden vooruit maakt 211
-
-<p><ref target=ch18>XVIII</ref>. Waarin de zeer waarheidlievende geschiedenis der Albatros afgebroken wordt, zonder haar te eindigen 226
-
+<list type=tocList>
+<item>      <ab type=tocPageNum>Bladz.</ab>
+<item><ab type=tocDivNum>I.</ab>     <ref target=ch1>Waarin de geleerden en ook de domkoppen met de handen in het haar zitten</ref>  <ab type=tocPageNum>1</ab>
+<item><ab type=tocDivNum>II.</ab>    <ref target=ch2>Waarin de leden van Weldon-Institute met elkander kibbelen, zonder er in te slagen tot overeenstemming te geraken.</ref>  <ab type=tocPageNum>14</ab>
+<item><ab type=tocDivNum>III.</ab>   <ref target=ch3>Waarin een nieuwe figuur ten tooneele verschijnt, die den lezer niet behoeft voorgesteld te worden, om de eenvoudige reden dat hij zich zelven voorstelt</ref>  <ab type=tocPageNum>29</ab>
+<item><ab type=tocDivNum>IV.</ab>    <ref target=ch4>Waarin de schrijver, handelende over den knecht Frycollin, poogt de maan in hare eer te herstellen</ref>  <ab type=tocPageNum>40</ab>
+<item><ab type=tocDivNum>V.</ab>     <ref target=ch5>Waarin een schorsing van vijandelijkheden tusschen den voorzitter en den secretaris van Weldon-Institute ingewilligd wordt.</ref>  <ab type=tocPageNum>50</ab>
+<item><ab type=tocDivNum>VI.</ab>    <ref target=ch6>Dat de ingenieurs, de werktuigkundigen en andere geleerden gevoegelijk zouden kunnen overslaan</ref>  <ab type=tocPageNum>62</ab>
+<item><ab type=tocDivNum>VII.</ab>   <ref target=ch7>Waarin Uncle Prudent en Phil Evans nogmaals weigeren zich te laten overtuigen</ref>  <ab type=tocPageNum>75</ab>
+<item><ab type=tocDivNum>VIII.</ab>  <ref target=ch8>Waarin bespeurd zal worden, dat Robur eindelijk besluit, antwoord te verleenen op de gewichtige vraag, die hem gesteld is.</ref>  <ab type=tocPageNum>87</ab>
+<item><ab type=tocDivNum>IX.</ab>    <ref target=ch9>Waarin de Albatros ongeveer tienduizend kilometer aflegt en den tocht met een wonderbaarlijken sprong eindigt</ref>  <ab type=tocPageNum>101</ab>
+<item><ab type=tocDivNum>X.</ab>     <ref target=ch10>Waarin men zien zal, hoe en waarom de knecht Frycollin op sleeptouw genomen wordt</ref>  <ab type=tocPageNum>115</ab>
+<item><ab type=tocDivNum>XI.</ab>    <ref target=ch11>Waarin de toorn van Uncle Prudent, voorzitter van Weldon-Institute, aangroeit als de vierkanten van snelheid van de Albatros</ref>  <ab type=tocPageNum>132</ab>
+<item><ab type=tocDivNum>XII.</ab>   <ref target=ch12>Waarin de ingenieur Robur te werk gaat, alsof hij wil mededingen naar den Monthyon-prijs</ref>  <ab type=tocPageNum>141</ab>
+<item><ab type=tocDivNum>XIII.</ab>  <ref target=ch13>Waarin Uncle Prudent en Phil Evans een geheelen oceaan oversteken, zonder zeeziek te worden</ref>  <ab type=tocPageNum>157</ab>
+<item><ab type=tocDivNum>XIV.</ab>   <ref target=ch14>Waarin de Albatros verricht, wat wellicht wel nimmer uitvoerbaar zal zijn</ref>  <ab type=tocPageNum>171</ab>
+<item><ab type=tocDivNum>XV.</ab>    <ref target=ch15>Waarin zaken gebeuren, die inderdaad waard zijn verhaald te worden</ref>  <ab type=tocPageNum>188</ab>
+<item><ab type=tocDivNum>XVI.</ab>   <ref target=ch16>Waarin de lezer in eene onzekerheid gelaten wordt, die hij waarschijnlijk betreuren zal</ref>  <ab type=tocPageNum>202</ab>
+<item><ab type=tocDivNum>XVII.</ab>  <ref target=ch17>Waarin de geschiedenis van het gebeurde een sprong van twee maanden achteruit en daarna een sprong van negen maanden vooruit maakt</ref>  <ab type=tocPageNum>211</ab>
+<item><ab type=tocDivNum>XVIII.</ab> <ref target=ch18>Waarin de zeer waarheidlievende geschiedenis der Albatros afgebroken wordt, zonder haar te eindigen</ref>  <ab type=tocPageNum>226</ab>
+</list>
 
 
 
@@ -5338,114 +5331,66 @@
 <head>Jules Verne&apos;s Geïllustreerde Wonderreizen.</head>
 
 
-<p>Prijs per deel: 75 cts. ingen., &florin; 1.&ndash; geb.
+<p rend="align(center)">Prijs per deel: 75 cts. ingen., &florin; 1.&ndash; geb.
 
 
-<p>1 DE REIS OM DE WERELD IN 80 DAGEN.
-
-<p>2 DE REIS NAAR DE MAAN IN 28 DAGEN.
-
-<p>3 DE KINDEREN VAN KAPITEIN GRANT. Zuid-Amerika.
-
-<p>4 DE KINDEREN VAN KAPITEIN GRANT. Australië.
-
-<p>5 DE KINDEREN VAN KAPITEIN GRANT. Stille Zuidzee.
-
-<p>6 20.000 MIJLEN ONDER ZEE. Oostelijk Halfrond.
-
-<p>7 20.000 MIJLEN ONDER ZEE. Westelijk Halfrond.
-
-<p>8 VIJF WEKEN IN EEN LUCHTBALLON. Ontdekkingsreis in de Binnenlanden van Afrika.
-
-<p>9 HET GEHEIMZINNIGE EILAND. De Luchtschipbreukelingen.
-
-<p>10 HET GEHEIMZINNIGE EILAND. De Verlatene.
-
-<p>11 NAAR HET MIDDELPUNT DER AARDE.
-
-<p>12 MICHAEL STROGOFF, DE KOERIER VAN DEN CZAAR.
-
-<p>13 HET ZWARTE GOUD.
-
-<p>14 HECTOR SERVADAC. De Vulkaanbewoners.
-
-<p>15 HECTOR SERVADAC. De Terugtocht naar de Aarde.
-
-<p>16 AVONTUREN VAN DRIE RUSSEN EN DRIE ENGELSCHEN. Gevolgd door &ldquo;De Blokkadebrekers.&rdquo;
-
-<p>17 EEN KAPITEIN VAN 15 JAAR. De Walvischjagers.
-
-<p>18 EEN KAPITEIN VAN 15 JAAR. In Slavernij.
-
-<p>19 DE SCHIPBREUK VAN DE CHANCELLOR.
-
-<p>20 WONDERLIJKE AVONTUREN VAN EEN CHINEES.
-
-<p>21 ELDORADO EN HET MONSTERKANON VAN STAALSTAD. Gevolgd door &ldquo;Meester Zacharias&rdquo;.
-
-<p>22 HET LAND DER BUITENSTE DUISTERNIS. De Pelterijhandel.
-
-<p>23 HET LAND DER BUITENSTE DUISTERNIS. Het drijvende Eiland.
-
-<p>24 HET STOOMHUIS. De IJzeren Reus.
-
+<list>
+<item><ab type=itemNum>1</ab> <xref url="pg:11318">DE REIS OM DE WERELD IN 80 DAGEN</xref>.
+<item><ab type=itemNum>2</ab> <xref url="pg:27309">DE REIS NAAR DE MAAN IN 28 DAGEN</xref>.
+<item><ab type=itemNum>3</ab> DE KINDEREN VAN KAPITEIN GRANT. Zuid-Amerika.
+<item><ab type=itemNum>4</ab> DE KINDEREN VAN KAPITEIN GRANT. Australië.
+<item><ab type=itemNum>5</ab> DE KINDEREN VAN KAPITEIN GRANT. Stille Zuidzee.
+<item><ab type=itemNum>6</ab> <xref url="pg:11205">20.000 MIJLEN ONDER ZEE</xref>. Oostelijk Halfrond.
+<item><ab type=itemNum>7</ab> <xref url="pg:11393">20.000 MIJLEN ONDER ZEE</xref>. Westelijk Halfrond.
+<item><ab type=itemNum>8</ab> <xref url="pg:19086">VIJF WEKEN IN EEN LUCHTBALLON</xref>. Ontdekkingsreis in de Binnenlanden van Afrika.
+<item><ab type=itemNum>9</ab> <xref url="pg:20331">HET GEHEIMZINNIGE EILAND</xref>. De Luchtschipbreukelingen.
+<item><ab type=itemNum>10</ab> <xref url="pg:22580">HET GEHEIMZINNIGE EILAND</xref>. De Verlatene.
+<item><ab type=itemNum>11</ab> <xref url="pg:10349">NAAR HET MIDDELPUNT DER AARDE</xref>.
+<item><ab type=itemNum>12</ab> MICHAEL STROGOFF, DE KOERIER VAN DEN CZAAR.
+<item><ab type=itemNum>13</ab> HET ZWARTE GOUD.
+<item><ab type=itemNum>14</ab> HECTOR SERVADAC. De Vulkaanbewoners.
+<item><ab type=itemNum>15</ab> HECTOR SERVADAC. De Terugtocht naar de Aarde.
+<item><ab type=itemNum>16</ab> <xref url="pg:39191">AVONTUREN VAN DRIE RUSSEN EN DRIE ENGELSCHEN</xref>. Gevolgd door &ldquo;De Blokkadebrekers.&rdquo;
+<item><ab type=itemNum>17</ab> <xref url="pg:18425">EEN KAPITEIN VAN 15 JAAR</xref>. De Walvischjagers.
+<item><ab type=itemNum>18</ab> EEN KAPITEIN VAN 15 JAAR. In Slavernij.
+<item><ab type=itemNum>19</ab> DE SCHIPBREUK VAN DE CHANCELLOR.
+<item><ab type=itemNum>20</ab> <xref url="pg:24773">WONDERLIJKE AVONTUREN VAN EEN CHINEES</xref>.
+<item><ab type=itemNum>21</ab> ELDORADO EN HET MONSTERKANON VAN STAALSTAD. Gevolgd door &ldquo;Meester Zacharias&rdquo;.
+<item><ab type=itemNum>22</ab> HET LAND DER BUITENSTE DUISTERNIS. De Pelterijhandel.
+<item><ab type=itemNum>23</ab> HET LAND DER BUITENSTE DUISTERNIS. Het drijvende Eiland.
+<item><ab type=itemNum>24</ab> <xref url="pg:33075">HET STOOMHUIS</xref>. De IJzeren Reus.
 <!-- Zie voor vervolg de achterzijde van den titel. -->
-
-<pb><p>25 HET STOOMHUIS. De Waanzinnige der Nerbudda.
-
-<p>26 REIZEN EN LOTGEVALLEN VAN KAPITEIN HATTERAS. De Engelschen aan de Noordpool.
-
-<p>27 REIZEN EN LOTGEVALLEN VAN KAPITEIN HATTERAS. De IJswoestijn.
-
-<p>28 EENE VLOTREIS. 800 Mijlen op de Amazone.
-
-<p>29 EENE VLOTREIS. Het Raadselschrift.
-
-<p>30 EEN LEERSCHOOL VOOR ROBINSONS.
-
-<p>31 DE WONDERSTRAAL.
-
-<p>32 KERABAN DE STIJFHOOFDIGE. Een Hollander in de Klem.
-
-<p>33 KERABAN DE STIJFHOOFDIGE. Schipbreuk en Redding.
-
-<p>34 DE ZUIDSTER. Het Land der Diamanten.
-
-<p>35 DE ARCHIPEL IN VUUR EN VLAM.
-
-<p>36 DE VONDELING VAN HET FREGAT CYNTHIA.
-
-<p>37 MATHIAS SANDORF. Een verijdelde Samenzwering.
-
-<p>38 MATHIAS SANDORF. De Middellandsche Zee.
-
-<p>39 MATHIAS SANDORF. Een Model-Volkplanting.
-
-<p>40 HET LOTERIJBRIEFJE.
-
-<p>41 ROBUR DE VEROVERAAR.
-
-<p>42 DE STRIJD TUSSCHEN NOORD EN ZUID. Overrompeling eener Plantage.
-
-<p>43 DE STRIJD TUSSCHEN NOORD EN ZUID. De Zwarte kreek van Texas.
-
-<p>44 1792. OP WEG NAAR FRANKRIJK.
-
-<p>45 TWEE JAAR VACANTIE. De mislukte Pleiziertocht.
-
-<p>46 TWEE JAAR VACANTIE. Een Knapenkolonie.
-
-<p>47 DE FAMILIE ZONDER NAAM. Het Verraad van Simon Morgaz.
-
-<p>48 DE FAMILIE ZONDER NAAM. De Opstand van 1837.
-
-<p>49 EEN SCHOT IN DE LUCHT.
-
-<p>50 CESAR CASCABEL. De schoone Zwerfster.
-
-<p>51 CESAR CASCABEL. Over het IJs en door de Steppen.
+<pb><item><ab type=itemNum>25</ab> <xref url="pg:38449">HET STOOMHUIS</xref>. De Waanzinnige der Nerbudda.
+<item><ab type=itemNum>26</ab> REIZEN EN LOTGEVALLEN VAN KAPITEIN HATTERAS. De Engelschen aan de Noordpool.
+<item><ab type=itemNum>27</ab> REIZEN EN LOTGEVALLEN VAN KAPITEIN HATTERAS. De IJswoestijn.
+<item><ab type=itemNum>28</ab> EENE VLOTREIS. 800 Mijlen op de Amazone.
+<item><ab type=itemNum>29</ab> EENE VLOTREIS. Het Raadselschrift.
+<item><ab type=itemNum>30</ab> EEN LEERSCHOOL VOOR ROBINSONS.
+<item><ab type=itemNum>31</ab> <xref url="pg:27397">DE WONDERSTRAAL</xref>.
+<item><ab type=itemNum>32</ab> KERABAN DE STIJFHOOFDIGE. Een Hollander in de Klem.
+<item><ab type=itemNum>33</ab> KERABAN DE STIJFHOOFDIGE. Schipbreuk en Redding.
+<item><ab type=itemNum>34</ab> <xref url="pg:17580">DE ZUIDSTER</xref>. Het Land der Diamanten.
+<item><ab type=itemNum>35</ab> DE ARCHIPEL IN VUUR EN VLAM.
+<item><ab type=itemNum>36</ab> DE VONDELING VAN HET FREGAT CYNTHIA.
+<item><ab type=itemNum>37</ab> MATHIAS SANDORF. Een verijdelde Samenzwering.
+<item><ab type=itemNum>38</ab> <xref url="pg:69576">MATHIAS SANDORF</xref>. De Middellandsche Zee.
+<item><ab type=itemNum>39</ab> <xref url="pg:22908">MATHIAS SANDORF</xref>. Een Model-Volkplanting.
+<item><ab type=itemNum>40</ab> HET LOTERIJBRIEFJE.
+<item><ab type=itemNum>41</ab> <xref url="pg:19091">ROBUR DE VEROVERAAR</xref>.
+<item><ab type=itemNum>42</ab> <xref url="pg:29095">DE STRIJD TUSSCHEN NOORD EN ZUID</xref>. Overrompeling eener Plantage.
+<item><ab type=itemNum>43</ab> <xref url="pg:29192">DE STRIJD TUSSCHEN NOORD EN ZUID</xref>. De Zwarte kreek van Texas.
+<item><ab type=itemNum>44</ab> 1792. OP WEG NAAR FRANKRIJK.
+<item><ab type=itemNum>45</ab> TWEE JAAR VACANTIE. De mislukte Pleiziertocht.
+<item><ab type=itemNum>46</ab> TWEE JAAR VACANTIE. Een Knapenkolonie.
+<item><ab type=itemNum>47</ab> DE FAMILIE ZONDER NAAM. Het Verraad van Simon Morgaz.
+<item><ab type=itemNum>48</ab> DE FAMILIE ZONDER NAAM. De Opstand van 1837.
+<item><ab type=itemNum>49</ab> EEN SCHOT IN DE LUCHT.
+<item><ab type=itemNum>50</ab> <xref url="pg:26143">CESAR CASCABEL</xref>. De schoone Zwerfster.
+<item><ab type=itemNum>51</ab> <xref url="pg:26395">CESAR CASCABEL</xref>. Over het IJs en door de Steppen.
+</list>
 
 
+<div1 id=imprint2 type=Imprint>
 
 
 <p rend="align(center) font-size(small)">Boek- en Kunstdrukkerij P. A. Geurts, Nijmegen.
